@@ -86,7 +86,7 @@ li {
 }
 
 #description{
-    margin-top: 12vh;
+    margin-top: 15vh;
     background-color: rgb(53, 53, 53);
     padding-bottom: 20vh;
     
@@ -100,6 +100,11 @@ h2{
     font-size: 6vh;
     padding-top: 20px;
     
+}
+
+.text{
+    padding: 5vh 0;
+    font-size: 25px;
 }
 
 
