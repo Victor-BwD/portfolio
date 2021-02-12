@@ -94,6 +94,8 @@ li {
 }
 
 
+
+
 h2{
     text-align: center;
     margin: 0;
@@ -105,7 +107,7 @@ h2{
 
 .text{
     padding: 5vh 0;
-    font-size: 25px;
+    font-size: 30px;
     margin-left: 30px;
 }
 
@@ -113,6 +115,7 @@ h2{
     display: flex;
     margin-left: 30px;
     justify-content: space-around;
+    font-size: 16px;
 }
 
 h3{
@@ -126,12 +129,49 @@ h3{
     font-weight: bold;
 }
 
-@media only screen and (min-device-width: 280px) and (max-device-width: 480px){
-    .skills-cards {
-        display: flex;
-        flex-wrap: wrap;
+.skills{
+    margin-top: 20px;
+}
+
+
+/* Float four columns side by side */
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+}
+  
+  /* Remove extra left and right margins, due to padding */
+  .row {
+    margin: 0 -5px;
+    margin-top:20px;
+}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+  
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
     }
 }
+  
+  /* Style the counter cards */
+  .card {
+    
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f100;
+}
+
+
 
 
 
