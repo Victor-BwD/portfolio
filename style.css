@@ -131,6 +131,7 @@ h3{
 
 .skills{
     margin-top: 20px;
+    
 }
 
 
@@ -139,6 +140,7 @@ h3{
     float: left;
     width: 25%;
     padding: 0 10px;
+    margin-bottom: 8vh;
 }
   
   /* Remove extra left and right margins, due to padding */
@@ -169,6 +171,22 @@ h3{
     padding: 16px;
     text-align: center;
     background-color: #f1f1f100;
+}
+
+#others{
+    
+    font-size: 20px;
+	display: block;
+  	padding: 10px 15px;	
+  	margin-top: 10px;
+  	padding-top: 50px;
+}
+
+#portfolio {
+    padding: 2rem 8rem 4rem 8rem;
+    background-color: rgb(53, 53, 53);
+    
+   
 }
 
 
