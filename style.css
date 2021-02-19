@@ -71,9 +71,6 @@ li{
     font-size: 2vh;
 }
 
-
-
-
 .about-image{
     width: 20%;
     padding-left: 20px;
@@ -204,11 +201,57 @@ h3{
 
 
 #portfolio {
-    padding: 2rem 8rem 4rem 8rem;
+    padding: 10px;
     background-color: rgb(53, 53, 53);
     
    
 }
+
+#portfolio h3 {
+    font-size: 5vh;
+    margin-bottom: 5vh;
+    text-align: center;
+}
+
+@media screen and (min-device-width: 280px) and (max-device-width: 480px){
+    .image-link, .project-description {
+        width: 100%;
+        display: block;
+        
+    }
+}
+
+.project-image{
+    width: 50%;
+}
+
+.image-link {
+    width: 100%;
+    
+}
+
+.project-title {
+    font-weight: 700;
+    font-size: 25px;
+    color: rgb(226, 151, 39);
+}
+
+.project-description {
+    width: 50%;
+    line-height: 4vh;
+    padding-left: 2vh;
+    font-size: 20px;
+}
+
+.project {
+    display: flex;
+    margin-bottom: 4vh;
+}
+
+
+
+
+
 
 
 
