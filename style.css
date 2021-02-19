@@ -29,10 +29,32 @@ nav{
 }
 
 .menu{
-    display: flex;
-    justify-content: space-between;
-    width: 50%;
+    list-style-type: none;
+    margin: 0;
+    padding: 2vh;
+    text-align: center;
 }
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+li{
+    display: inline;
+}
+
+@media only screen and (min-device-width: 280px) and (max-device-width: 480px){
+    .menu a {
+        padding: 0 1vw;
+    }
+}
+
 
 .menu a{
     color: white;
